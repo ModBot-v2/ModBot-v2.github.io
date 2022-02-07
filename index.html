@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link type="text/css" rel="stylesheet" href="style.css">
         <meta name="theme-color" content="#5865F2">
+        <script src="https://discordbotlist.com/widget/index.js" async></script>
     </head>
     <body>
         <div class="page-header">
@@ -14,10 +15,16 @@
             <a href="https://discord.com/api/oauth2/authorize?client_id=937390264325124227&permissions=8&scope=bot" id="header-bot-inv" target="_blank">Invite Bot</a>
             <a href="privacy-policy.html" id="header-bot-inv" target="_blank">View Privacy Policy</a>
         </div>
+        <div class="bot-stats">
+            <h1 id="bot-stats-header">Bot Statistics</h1>
+            <h1 id="servers">Servers</h1>
+            <h1 id="users">Users</h1>
+            <h1 id="server-count"><dbl-stat bot-id="bot-937390264325124227" stat="guilds">Loading...</dbl-stat></h1>
+            <h1 id="user-count"><dbl-stat bot-id="bot-937390264325124227" stat="users">Loading...</dbl-stat></h1>
+        </div>
         <div class="bot-information">
             <h1 id="bot-info-header">Bot Information</h1>
             <p id="bot-info-text">
-                <script src="https://discordbotlist.com/widget/index.js" async></script>
                 <dbl-widget bot-id="bot-937390264325124227"></dbl-widget>
             </p>
         </div>
